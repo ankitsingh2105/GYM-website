@@ -74,24 +74,24 @@ export default function Calculator() {
                         <div className="Calc_card align2">
                             <div className="text12">Male</div>
                             <div className="Calc_section">
-                                <div className="age">Age </div>
+                                <div className="age">Age - </div>
                                 <input ref={age1} type="text" placeholder="in years" className='height_input' />
                             </div>
                             <div className="Calc_section align">
                                 <div className="weight">
-                                    Weight 
+                                    Weight -
                                 </div>
                                 <input ref={weight1} type="text" placeholder="in kgs" className='height_input' />
                             </div>
                             <div className="Calc_section align">
                                 <div className="height">
-                                    Height 
+                                    Height -
                                 </div>
                                 <input ref={height1} type="text" placeholder="in centimeters" className='height_input' />
                             </div>
                             <div className="Calc_section align">
                                 <div className="height">
-                                    Factor 
+                                    Factor -
                                 </div>
                                 <select ref={value1} name="cars" id="cars">
                                     <option value="volvo">little or no exercise</option>
@@ -108,24 +108,24 @@ export default function Calculator() {
                         <div className="Calc_card align2">
                             <div className="text12">Female</div>
                             <div className="Calc_section align">
-                                <div className="age">Age </div>
+                                <div className="age">Age - </div>
                                 <input ref={age2} type="text" placeholder="in years" className='height_input' />
                             </div>
                             <div className="Calc_section align">
                                 <div className="weight">
-                                    Weight 
+                                    Weight -
                                 </div>
                                 <input ref={weight2} type="text" placeholder="in kgs" className='height_input' />
                             </div>
                             <div className="Calc_section align">
                                 <div className="height">
-                                    Height 
+                                    Height -
                                 </div>
                                 <input ref={height2} type="text" placeholder="in centimeters" className='height_input' />
                             </div>
                             <div className="Calc_section align">
                                 <div className="height">
-                                    Factor 
+                                    Factor -
                                 </div>
                                 <select ref={value2} name="cars" id="cars">
                                     <option value="volvo">little or no exercise</option>
