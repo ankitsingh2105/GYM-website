@@ -11,6 +11,10 @@
 .Calc_card {
     background-color: rgb(20 20 20);
     margin: 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
 }
 
 .Calc_card div {
@@ -19,24 +23,27 @@
 
 .Calc_section {
     display: flex;
-    margin: 1rem;
-    margin-right: auto;
-    padding: 0px 2rem;
+    padding: 0px 1rem;
+    justify-content:space-between;
+    margin: 10px -10px;
+    width: 100%;
 }
-
 .Calc_section input {
     padding: 1rem;
+    
 }
 
 .Calc_section select {
+    padding: 1rem 0rem;
     font-family: var(--main-font);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .Calc_section div {
     margin-right: 3rem;
     font-size: 1.5rem;
 }
+  
 
 .text12 {
     padding: 1rem 0rem;
