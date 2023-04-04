@@ -75,6 +75,15 @@ body {
 .one {
     background-color: var(--main-color);
 }
+.floating{
+    position: fixed;
+    bottom: 15%;
+    right: 3%;
+    z-index: 9999999;
+    background-color: var(--main-color);
+    border-radius: 100px;
+    padding: 7px 13px;
+}
 
 @media screen and (max-width: 651px) {
     .Nav_list{
