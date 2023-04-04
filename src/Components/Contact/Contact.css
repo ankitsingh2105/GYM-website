@@ -39,6 +39,10 @@
 .form{
     padding-bottom: 3rem;
 }
+.text3 , .text , .text2{
+    font-family: var(--main-font);
+    letter-spacing: 1.5px;
+}
 form input::placeholder , form textarea::placeholder{
     font-family: var(--main-font);
 }

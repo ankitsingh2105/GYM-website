@@ -24,7 +24,7 @@ body {
 }
 
 .Navbar_main_div {
-    margin-top: 13px;
+    padding-top: 3px;
     display: flex;
     align-items: center;
 }
@@ -32,6 +32,7 @@ body {
 .Nav_list a :last-child{
     color: var(--main-color);
 }
+
 
 .Navbar_main_div img {
     margin-left: 20px;
@@ -54,6 +55,11 @@ body {
 .Nav_list:hover {
     background-color: var(--main-color);
     cursor: pointer;
+}
+
+.Nav_list a :last-child:hover{
+    color: white;
+    background-color: red;
 }
 
 .Nav_UList {
