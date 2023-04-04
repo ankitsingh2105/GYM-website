@@ -9,12 +9,12 @@ import Ankit from "./Components/Contact/Ankit"
 export default function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar id="home"/>
       <Home/>
-      <About/>
+      <About id="about"/>
       <Trainers/>
       <Calculator/>
-      <Contact/>
+      <Contact id="contact" />
       <Ankit/>
     </>
   )

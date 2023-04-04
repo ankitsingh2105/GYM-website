@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css"
-export default function Contact() {
+export default function Contact(props) {
     const SendtoWhatspp = () => {
         let naam = document.getElementById("newid1").value;
         let email = document.getElementById('newid2').value;
@@ -9,7 +9,7 @@ export default function Contact() {
         window.open(Message, '_blank').focus();
     }
     return (
-        <main className="Contact_main">
+        <main id={props.id} className="Contact_main">
             <div className="Contact_main_div">
                 <h1 className='Contact_Head align'>
                     <div className="color2">Contact</div>
