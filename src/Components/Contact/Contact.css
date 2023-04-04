@@ -1,0 +1,83 @@
+.Contact_Head{
+    font-size: 3rem;
+    font-family: var(--main-font);
+    padding: 3rem 0rem 0rem;
+}
+.Contact_main_div{
+    background-color: rgb(20 20 20);
+}
+.Contact_main{
+    border-bottom: 3px solid var(--main-color);
+}
+.icons{
+    font-size: 2.5rem;
+    margin: 2rem 4rem;
+    color: var(--main-color);
+}
+.heading_contact {
+    font-size: 1.4rem;
+    margin-bottom: 23px;
+    border-bottom: 2px solid white;
+    border-bottom-style: dotted;
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+.info_contact {
+    margin-top: 12px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #FF3B3F;
+}
+.contact_form {
+    border: 1px dashed #f3f2f1;
+    border-radius: 19px;
+    margin: 0 45px;
+    padding:10px 12px 17px;
+}
+.form{
+    padding-bottom: 3rem;
+}
+form input::placeholder , form textarea::placeholder{
+    font-family: var(--main-font);
+}
+.fa-truck{
+    font-size: 2rem;
+    margin-top: 1.4rem;
+    margin-bottom: -1rem;
+}
+.Contact_new_main{
+    margin: 1rem;
+    font-family: var(--main-font);
+    font-size: 1.4rem;
+}
+.Contact_new_main a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1084px) {
+    .text3 {
+        margin: 0.5rem 6rem
+    }
+}
+@media screen and (max-width: 796px) {
+    .text3 {
+        margin: 0.5rem 1rem
+    }
+}
+@media screen and (max-width: 492px) {
+    .icons{
+        margin: 2rem;
+    }
+    .Contact_ul{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 514px) {
+    .Contact_new_main a{
+        margin-bottom: 3rem;
+    }
+    
+}

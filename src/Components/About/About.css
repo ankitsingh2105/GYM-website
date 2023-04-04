@@ -1,0 +1,117 @@
+.About_main {
+    margin: 2rem 1rem;
+}
+
+.About_main_aside aside {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.color1 {
+    background-color: var(--main-color);
+    padding: 0px 10px;
+}
+
+.card_main_div {
+    margin: 6rem 0px;
+}
+
+.icon {
+    font-size: 5rem;
+    margin: 10px 0px;
+}
+
+.card {
+    margin: 0px 3rem;
+    background-color: rgb(12, 12, 12);
+    padding: 5px 12px;
+}
+
+.text {
+    text-align: center;
+    line-height: 44px;
+}
+
+.head {
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (max-width: 1084px) {
+    .About_main_aside aside {
+        font-size: 2rem;
+    }
+
+    .About_main_aside {
+        margin-top: 4rem;
+    }
+
+    .card {
+        margin: 0px 1rem;
+        background-color: rgb(12, 12, 12);
+        padding: 5px 12px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .card_main_div {
+        flex-direction: column;
+        margin: 4rem 0px;
+    }
+
+    .card {
+        margin: 1rem 6rem
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .About_main_aside aside {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 622px) {
+    .About_main_aside aside {
+        font-size: 1.5rem;
+    }
+    .head{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 755px) {
+    .card {
+        margin: 1rem 3rem
+    }
+}
+@media screen and (max-width: 755px) {
+    .card {
+        margin: 1rem 1rem
+    }
+}
+@media screen and (max-width: 523px) {
+    .About_main_aside aside {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 501px) {
+    .About_main_aside aside {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 421px) {
+    .About_main_aside aside {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 396px) {
+    .About_main_aside aside {
+        font-size: 19.1px;
+    }
+}
+@media screen and (max-width: 396px) {
+    .About_main_aside aside {
+        font-size: 17.1px;
+    }
+}

@@ -1,0 +1,62 @@
+.Trainer_main {
+    background-color: rgb(20 20 20);
+    padding: 4rem 0rem;
+}
+
+.Trainer_main_div {
+    font-size: 4rem;
+    font-family: var(--main-font);
+}
+
+.color2 {
+    background-color: var(--main-color);
+    padding: 0px 10px;
+}
+
+.Trainer_card img {
+    width: 194px;
+    height: 200px;
+    margin-top: 2rem;
+    border-radius: 100px;
+    border: 6px solid var(--main-color);
+}
+
+.Trainer_card {
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.text2 {
+    margin: 1rem 5rem;
+}
+.text3{
+    margin: .5rem 14rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+.input1 , .input2{
+    padding: 1rem;
+    font-family: var(--main-font);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1084px) {
+    .Trainer_main_div {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Trainer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 490px) {
+    .text2 {
+        margin: 1rem 2rem;
+    }
+    .Trainer_main_div {
+        font-size: 2.5rem;
+    }
+}

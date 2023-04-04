@@ -1,0 +1,105 @@
+:root {
+    --main-color: orangered;
+    --main-font: 'Oswald', sans-serif;
+}
+
+.Home_main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.Home_main {
+    height: 530px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Home_main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./main_back.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: .4;
+    z-index: -1;
+}
+
+.Home_main_div div {
+    font-size: 6rem;
+    font-weight: bolder;
+    margin: 0px 8px;
+}
+
+.Home_main_div aside div {
+    opacity: 99%;
+}
+
+
+.color {
+    color: var(--main-color);
+}
+
+.Home_main_div button {
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 50px;
+    color: white;
+    padding: 20px 70px;
+    font-size: 1.4rem;
+    opacity: 99%;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* media quesries for all */
+@media screen and (max-width: 1084px) {
+    .Home_main_div div {
+        font-size: 4rem;
+    }
+
+    .Home_main_div button {
+        padding: 17px 60px;
+    }
+}
+
+@media screen and (max-width: 731px) {
+    .Home_main_div div {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 651px) {
+    .Home_main_div div {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 651px) {
+    .Home_main_div div {
+        font-size: 2.5rem;
+    }
+
+    .Home_main_div button {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .Home_main_div div {
+        font-size: 2.53rem;
+    }
+}
+@media screen and (max-width: 393px) {
+    .Home_main_div div {
+        font-size: 2.23rem;
+    }
+}
