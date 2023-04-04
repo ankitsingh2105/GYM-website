@@ -111,3 +111,8 @@
         font-size: 2.23rem;
     }
 }
+@media screen and (min-width: 1289px) {
+    .Home_main::before {
+        background-image: url("./main_back_1200.jpg");
+    }
+}
