@@ -58,6 +58,10 @@
     letter-spacing: 1px;
     font-family: 'Oswald', sans-serif;
 }
+.Home_main_div button a{
+    color: white;
+    text-decoration: none;
+}
 
 
 /* media quesries for all */

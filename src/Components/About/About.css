@@ -28,6 +28,7 @@
     margin: 0px 3rem;
     background-color: rgb(26 25 25);
     padding: 5px 12px;
+    box-shadow : 0px 0px 40px #282626;
 }
 
 .text {
@@ -47,12 +48,15 @@
     }
 
     .About_main_aside {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
 
     .card {
         margin: 0px 1rem;
         padding: 5px 12px;
+    }
+    .About_main {
+        margin-top: 2rem;
     }
 }
 

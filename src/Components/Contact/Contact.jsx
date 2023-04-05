@@ -37,7 +37,7 @@ export default function Contact(props) {
                             Deliver you message
                         </div>
                         <input type="text" id='newid1' className="info_contact " placeholder='Your Name' required></input>
-                            <input type="text" id='newid2' className="info_contact " placeholder='Your Email' required></input>
+                            <input type="text" id='newid2' className="info_contact " placeholder='Your Email/Phone' required></input>
                             <textarea type="text" id='newid3' className='info_contact ' name="" cols="27" rows="10" placeholder='Your message' required></textarea>
                         <div className="shake">
                             <div type='button' id='delivery' className="submit" onClick={SendtoWhatspp}>

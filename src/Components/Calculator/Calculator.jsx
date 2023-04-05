@@ -2,6 +2,23 @@ import React from 'react'
 import { useRef } from 'react'
 import "./Calculator.css"
 export default function Calculator() {
+    const Factor = (value) =>{
+        if (value == "little_exercise") {
+            return 1.2;
+        }
+        else if (value == "1_3_times") {
+            return 1.375
+        }
+        else if (value == "3_5_times") {
+            return 1.55
+        }
+        else if (value == "6_7_times") {
+            return 1.725;
+        }
+        else {
+            return 1.9;
+        }
+    }
     const age1 = useRef(null);
     const height1 = useRef(null);
     const weight1 = useRef(null);
@@ -18,20 +35,7 @@ export default function Calculator() {
         let weight = parseInt(weight1.current.value);
         let finalAns = 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
         let value = value1.current.value;
-        let intvalue;
-        if (value == "volvo") {
-            intvalue = 1.3;
-        }
-        else if (value == "saab") {
-            intvalue = 1.375
-        }
-        else if (value == "mercedes") {
-            intvalue = 1.55;
-        }
-        else {
-            intvalue = 1.9;
-        }
-        console.log("shit - > ", intvalue);
+        let intvalue = Factor(value);
         answer1.current.value = (finalAns * intvalue).toFixed(2) + " calories/day";
 
     }
@@ -41,20 +45,7 @@ export default function Calculator() {
         let weight = parseInt(weight2.current.value);
         let finalAns = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
         let value = value1.current.value;
-        let intvalue;
-        if (value == "volvo") {
-            intvalue = 1.3;
-        }
-        else if (value == "saab") {
-            intvalue = 1.375
-        }
-        else if (value == "mercedes") {
-            intvalue = 1.55;
-        }
-        else {
-            intvalue = 1.9;
-        }
-        console.log("shit - > ", intvalue);
+        let intvalue = Factor(value);
         answer2.current.value = (finalAns * intvalue).toFixed(2) + " calories/day";
     }
     return (
@@ -94,10 +85,11 @@ export default function Calculator() {
                                     Factor -
                                 </div>
                                 <select ref={value1} name="cars" id="cars">
-                                    <option value="volvo">little or no exercise</option>
-                                    <option value="saab">exercise 1-3 times per week</option>
-                                    <option value="mercedes">exercise 6-7 times per week</option>
-                                    <option value="audi">very hard exercise or physical job</option>
+                                    <option value="little_exercise">little or no exercise</option>
+                                    <option value="1_3_times">exercise 1-3 times per week</option>
+                                    <option value="3_5_times">exercise 3-5 times per week</option>
+                                    <option value="6_7_times">exercise 6-7 times per week</option>
+                                    <option value="very_hard">very hard exercise or physical job</option>
                                 </select>
                             </div>
                             <button onClick={MenCalc1} className='Calculate'>Calculate</button>
@@ -128,10 +120,11 @@ export default function Calculator() {
                                     Factor -
                                 </div>
                                 <select ref={value2} name="cars" id="cars">
-                                    <option value="volvo">little or no exercise</option>
-                                    <option value="saab">exercise 1-3 times per week</option>
-                                    <option value="mercedes">exercise 6-7 times per week</option>
-                                    <option value="audi">very hard exercise or physical job</option>
+                                    <option value="little_exercise">little or no exercise</option>
+                                    <option value="1_3_times">exercise 1-3 times per week</option>
+                                    <option value="3_5_times">exercise 3-5 times per week</option>
+                                    <option value="6_7_times">exercise 6-7 times per week</option>
+                                    <option value="very_hard">very hard exercise or physical job</option>
                                 </select>
                             </div>
                             <button onClick={MenCalc2} className='Calculate'>Calculate</button>

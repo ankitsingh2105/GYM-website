@@ -44,7 +44,6 @@ body {
 }
 
 .Nav_list {
-    margin: auto;
     margin: 0px 20px;
     font-size: 20px;
     padding: 2px 10px;
@@ -86,17 +85,27 @@ body {
     border: 1px solid white;
 }
 
+@media screen and (max-width: 749px) {
+    .Nav_list{
+        margin: 0px 10px;
+    }
+}
 @media screen and (max-width: 651px) {
     .Nav_list{
         font-size: 16px;
     }
 }
-@media screen and (max-width: 607px) {
+@media screen and (max-width: 484px) {
     .Nav_list{
-        margin: 0px 8px;
+        margin: 0px 5px;
     }
 }
-@media screen and (max-width: 514px) {
+@media screen and (max-width: 374px) {
+    .Nav_list{
+        margin: 0px 2px;
+    }
+}
+@media screen and (max-width: 572px) {
     .Navbar_main_div img{
         margin: auto;
     }

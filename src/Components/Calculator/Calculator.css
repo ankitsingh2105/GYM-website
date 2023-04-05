@@ -71,11 +71,6 @@
         margin: 3rem 8px;
     }
 }
-@media screen and (max-width: 1030px) {
-    .Calories_card {
-        flex-direction: column;
-    }
-}
 @media screen and (max-width: 852px) {
     .Calories_card{
         flex-direction: column;
