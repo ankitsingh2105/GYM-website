@@ -61,6 +61,10 @@
     font-family: var(--main-font);
 }
 
+.height_input::placeholder{
+    font-family: var(--main-font) ;
+}
+
 @media screen and (max-width: 1252px) {
     .Calc_card {
         margin: 3rem 18px;

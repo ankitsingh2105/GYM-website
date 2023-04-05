@@ -51,14 +51,10 @@ body {
     user-select: none;
 }
 
-.Nav_list:hover {
+.Nav_list:not(:last-child):hover {
     background-color: var(--main-color);
     cursor: pointer;
-}
-
-.Nav_list a :last-child:hover{
     color: white;
-    background-color: red;
 }
 
 .Nav_UList {
