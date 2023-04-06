@@ -1,21 +1,21 @@
 import React from 'react'
 import "./App.css"
-import { Suspense } from "react";
-import HashLoader from "react-spinners/HashLoader";
-import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Trainers from "./Components/Trainers/Trainer";
-import Calculator from "./Components/Calculator/Calculator";
-import Contact from "./Components/Contact/Contact";
-import Ankit from "./Components/Contact/Ankit";
+import { Suspense, lazy } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
+const Navbar = lazy(() => import("./Components/Navbar/Navbar"));
+const Home = lazy(() => import("./Components/Home/Home"));
+const About = lazy(() => import("./Components/About/About"));
+const Trainers = lazy(() => import("./Components/Trainers/Trainer"));
+const Calculator = lazy(() => import("./Components/Calculator/Calculator"));
+const Contact = lazy(() => import("./Components/Contact/Contact"));
+const Ankit = lazy(() => import("./Components/Contact/Ankit"));
 export default function App() {
   return (
     <>
       <Suspense
         fallback={
           <div className="align33" style={{ margin: "250px 0px" }}>
-            <HashLoader size={"40px"} color="orangered" className="" />
+            <BounceLoader size={"60px"} color="orangered" className="" />
           </div>
         }
       >
