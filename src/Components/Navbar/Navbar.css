@@ -19,7 +19,25 @@ body {
 
 /* *custom css */
 
-.Navbar_main{
+.Navbar_main {
+    animation-name: naventry;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes naventry {
+    0% {
+        opacity: 0;
+        transform: translateY(-181px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.Navbar_main {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -29,7 +47,7 @@ body {
     align-items: center;
 }
 
-.Nav_list a :last-child{
+.Nav_list a :last-child {
     color: var(--main-color);
 }
 
@@ -70,42 +88,37 @@ body {
 .one {
     background-color: var(--main-color);
 }
-.floating{
-    position: fixed;
-    bottom: 15%;
-    right: 3%;
-    z-index: 9999999;
-    background-color: var(--main-color);
-    border-radius: 100px;
-    padding: 7px 13px;
-    border: 1px solid white;
-}
 
 @media screen and (max-width: 749px) {
-    .Nav_list{
+    .Nav_list {
         margin: 0px 10px;
     }
 }
+
 @media screen and (max-width: 651px) {
-    .Nav_list{
+    .Nav_list {
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 484px) {
-    .Nav_list{
+    .Nav_list {
         margin: 0px 5px;
     }
 }
+
 @media screen and (max-width: 374px) {
-    .Nav_list{
+    .Nav_list {
         margin: 0px 2px;
     }
 }
+
 @media screen and (max-width: 599px) {
-    .Navbar_main_div img{
+    .Navbar_main_div img {
         margin: auto;
     }
-    .Nav_UList{
+
+    .Nav_UList {
         position: fixed;
         bottom: 0%;
         left: 0%;
@@ -114,5 +127,24 @@ body {
         border-top: 1px solid white;
         background-color: black;
         padding: 12px 10px;
+        animation-name: naventry2;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+    .Navbar_main {
+        animation-name: naventry;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    @keyframes naventry {
+        0% {
+            opacity: 0;
+            transform: translateY(81px);
+        }
+    
+        100% {
+            opacity: 0;
+            transform: translateY(90px);
+        }
     }
 }

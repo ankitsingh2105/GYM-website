@@ -12,7 +12,6 @@ export default function Navbar(props) {
         <div className="Navbar_main_div">
           <img src={Logo} alt="" />
           <ul className="Nav_UList">
-            <li className="Nav_list floating"><i onClick={() => scroll('home')} class="fa-solid fa-arrow-up"></i></li>
             <li className="Nav_list one"><a onClick={() => scroll('home')}>Home</a></li>
             <li className="Nav_list"><a onClick={() => scroll('about')}>About Us</a></li>
             <li className="Nav_list"><a onClick={() => scroll('trainer')}>Trainers</a></li>

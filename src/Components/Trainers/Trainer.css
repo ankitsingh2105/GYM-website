@@ -43,7 +43,19 @@
     margin-bottom: 2rem;
     font-size: 1rem;
 }
-
+.floating{
+    position: fixed;
+    bottom: 15%;
+    right: 3%;
+    z-index: 9999999;
+    background-color: var(--main-color);
+    border-radius: 100px;
+    padding: 7px 13px;
+    border: 1px solid white;
+}
+li{
+    list-style: none;
+}
 @media screen and (max-width: 1084px) {
     .Trainer_main_div {
         font-size: 3rem;
