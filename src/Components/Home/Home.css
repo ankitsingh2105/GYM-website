@@ -25,7 +25,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("./main_back (1).jpg");
+    background-image: url("./main_back.webp");
     background-repeat: no-repeat;
     background-size: auto;
     opacity: .4;
@@ -85,7 +85,7 @@
         font-size: 3.5rem;
     }
     .Home_main::before {
-        background-image: url("./main_back_685.jpg");
+        background-image: url("./main_back_685.webp");
     }
 }
 
@@ -117,6 +117,6 @@
 }
 @media screen and (min-width: 1289px) {
     .Home_main::before {
-        background-image: url("./main_back_1200.jpg");
+        background-image: url("./main_back_1200.webp");
     }
 }

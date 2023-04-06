@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Trainer.css";
-import Trainer1 from "./Trainer2.jpg"
+import Trainer1 from "./Trainer2.webp"
 export default function Trainer(props) {
     const { id } = props;
     return (

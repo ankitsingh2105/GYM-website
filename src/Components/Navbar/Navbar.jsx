@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "./divinelogo.jpg";
+import Logo from "./divinelogo.webp";
 import "./Navbar.css"
 export default function Navbar(props) {
   const scroll = (id) => {
