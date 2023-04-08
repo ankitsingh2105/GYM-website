@@ -3,9 +3,6 @@
     font-family: var(--main-font);
     padding: 3rem 0rem 0rem;
 }
-.Contact_main_div{
-    background-color: rgb(9 9 9);
-}
 .Contact_main{
     border-bottom: 3px solid var(--main-color);
 }

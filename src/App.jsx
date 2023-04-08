@@ -9,6 +9,7 @@ const Trainers = lazy(() => import("./Components/Trainers/Trainer"));
 const Calculator = lazy(() => import("./Components/Calculator/Calculator"));
 const Contact = lazy(() => import("./Components/Contact/Contact"));
 const Ankit = lazy(() => import("./Components/Contact/Ankit"));
+const Reviews = lazy(() => import("./Components/Reviews/Reviews"));
 export default function App() {
   return (
     <>
@@ -24,6 +25,7 @@ export default function App() {
         <About id="about" />
         <Trainers id="trainer" />
         <Calculator />
+        <Reviews/>
         <Contact id="contact" />
         <Ankit />
       </Suspense>
