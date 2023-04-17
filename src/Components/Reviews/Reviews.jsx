@@ -45,7 +45,7 @@ export default function Reviews() {
                                 <div><i class="fa-solid fa-star"></i></div>
                             </div>
                             <div className="review">
-                            Just the kind of gym Haldwani needs... Well equipped, latest machines in Haldwani which is a rare find... And had to mention the lighting cuz it matters 🫰🙌🙌🙌 If you're in Haldwani you must register now. …
+                            Just the kind of gym needs... Well equipped, latest machines which is a rare find... And had to mention the lighting cuz it matters 🫰🙌🙌🙌 If you're in Haldwani you must register now. …
                             </div>
                         </div>
                     </div>

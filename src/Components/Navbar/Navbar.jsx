@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "./divinelogo.webp";
+import Logo from "./man.png";
 import "./Navbar.css"
 export default function Navbar(props) {
   const scroll = (id) => {
@@ -16,7 +16,7 @@ export default function Navbar(props) {
             <li className="Nav_list"><a onClick={() => scroll('about')}>About Us</a></li>
             <li className="Nav_list"><a onClick={() => scroll('trainer')}>Trainers</a></li>
             <li className="Nav_list"><a onClick={() => scroll('contact')}>Contact</a></li>
-            <li className="Nav_list"> <a href="https://map.app.google/4tVQ9gqLm7VymsoD6" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a></li>
+            <li className="Nav_list"> <a href="https://ma.app.goog/4tVQ9gqLm7VymsoD6" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a></li>
           </ul>
         </div>
       </main>

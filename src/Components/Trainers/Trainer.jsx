@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Trainer.css";
-import Trainer1 from "./Trainer2.webp"
+import Trainer1 from "./man.png"
+import Trainer2 from "./woman.png"
 export default function Trainer(props) {
     const { id, id2 } = props;
     const scroll = (id) => {
@@ -19,14 +20,14 @@ export default function Trainer(props) {
                     <div className="Trainer_card align2">
                         <img src={Trainer1} alt="" />
                         <div className="head color">
-                            Deepanshu Deopa
+                            Trainer 1
                         </div>
                         <div className="text text2">Lorem ipsum , amet consectetur adipisicing elit. Ad ipsam repellendus doloremque asperiores. Perspiciatis vitae harum, </div>
                     </div>
                     <div className="Trainer_card align2">
-                        <img src={Trainer1} alt="" />
+                        <img src={Trainer2} alt="" />
                         <div className="head color">
-                            Deepanshu Deopa
+                            Trainer 2
                         </div>
                         <div className="text text2">Lorem ipsum , amet consectetur adipisicing elit. Ad ipsam repellendus doloremque asperiores. Perspiciatis vitae harum, </div>
                     </div>
