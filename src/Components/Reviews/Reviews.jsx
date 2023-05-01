@@ -16,7 +16,7 @@ export default function Reviews() {
                         <img className="review_class_image" src={man} alt="" />
                         <div className="align2">
                             <div className="name">
-                                Rohit Rawat
+                                Aman Singh
                             </div>
                             <div style={{ "margin-top": "12px" }} className="align">
                                 <div><i class="fa-solid fa-star"></i></div>
@@ -26,7 +26,9 @@ export default function Reviews() {
                                 <div><i class="fa-solid fa-star"></i></div>
                             </div>
                             <div className="review">
-                            One of the best gym in the city in my opinion. Neat and clean environment with amazing interior. Brand new top level equipment. Must visit!!
+                                It's best gym in location Georgetown.
+                                Coach and sub coach are very behavioural.
+                                They suggest you at every day and helps you .
                             </div>
                         </div>
                     </div>
@@ -35,7 +37,7 @@ export default function Reviews() {
                         <img className="review_class_image" src={woman} alt="" />
                         <div className="align2">
                             <div className="name">
-                                Saloni Bisht
+                                Arya Ojha
                             </div>
                             <div style={{ "margin-top": "12px" }} className="align">
                                 <div><i class="fa-solid fa-star"></i></div>
@@ -45,7 +47,7 @@ export default function Reviews() {
                                 <div><i class="fa-solid fa-star"></i></div>
                             </div>
                             <div className="review">
-                            Just the kind of gym needs... Well equipped, latest machines which is a rare find... And had to mention the lighting cuz it matters 🫰🙌🙌🙌  you must register now. …
+                            Cozy nearby workout space. We are doing zumba and there in ample space. You must register now.
                             </div>
                         </div>
                     </div>
@@ -54,7 +56,7 @@ export default function Reviews() {
                         <img className="review_class_image" src={man} alt="" />
                         <div className="align2">
                             <div className="name">
-                                Gaurav Rawat
+                                Manoj Singh
                             </div>
                             <div style={{ "margin-top": "12px" }} className="align">
                                 <div><i class="fa-solid fa-star"></i></div>
@@ -64,7 +66,7 @@ export default function Reviews() {
                                 <div><i class="fa-solid fa-star"></i></div>
                             </div>
                             <div className="review">
-                            Amazing facilities, new equipment, clean with a great vibe. Good service with friendly staff, highly recommend everyone to visit at least once.
+                            One of the best zym in prayagraj. Trainers are polite and careful. They provide scheduled training for all type of body enhancements.
                             </div>
                         </div>
                     </div>

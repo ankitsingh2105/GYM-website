@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "./man.png";
+import Logo from "./logo.png";
 import "./Navbar.css"
 export default function Navbar(props) {
   const scroll = (id) => {
