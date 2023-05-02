@@ -2,6 +2,18 @@
     --main-color: orangered;
     --main-font: 'Oswald', sans-serif;
 }
+::-webkit-scrollbar {
+    width: 4px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: gray;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--main-color); 
+  }
+  
 
 .Home_main_div {
     display: flex;
