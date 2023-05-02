@@ -14,8 +14,8 @@
 }
 
 .Trainer_card img {
-    width: 194px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
     margin-top: 2rem;
     border-radius: 100px;
     border: 6px solid var(--main-color);
@@ -50,7 +50,7 @@
     z-index: 9999999;
     background-color: var(--main-color);
     border-radius: 100px;
-    padding: 7px 13px;
+    padding: 6px 12px;
     border: 1px solid white;
 }
 li{
@@ -59,6 +59,9 @@ li{
 @media screen and (max-width: 1084px) {
     .Trainer_main_div {
         font-size: 3rem;
+    }
+    .floating{
+        padding: 6px 9.5px;
     }
 }
 @media screen and (max-width: 700px) {
