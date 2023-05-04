@@ -1,0 +1,71 @@
+.plan_head div{
+    margin: 0px 6px;
+    font-size: 3rem;
+}
+.plan_head :nth-child(2){
+    background-color: var(--main-color);
+    padding: 0px 3px;
+}
+.plan_card{
+    text-align: center;
+    padding: 40px 60px 40px 40px;
+    border: 1px solid white;
+    transform: skewY(-4deg);
+    transition: all 0.5s;
+    position: relative;
+    margin: 4rem 3rem;
+    box-shadow: 0px 0px 50px #484545;
+}
+.plan_card:hover{
+    transform: scale(1.03);
+    .plan_card div , .plan_card h2 , .plan_card button{
+        transform: skewY(4deg);
+    }
+}
+.plan_card div , .plan_card h2 , .plan_card button{
+    transform: skewY(4deg);
+}
+.plan_price{
+    color: var(--main-color);
+    font-weight: 900;
+    font-size: 40px;
+}
+.plan_features{
+    list-style: circle;
+    margin: 10px 0px;
+}
+.main_plan{
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+    padding: 3rem 0px;
+    border-bottom: 1px solid rgb(34, 33, 33);
+    border-top: 1px solid rgb(34, 33, 33);
+}
+@media screen and (max-width: 1070px) {
+    .plan_card{
+        margin: 4rem 1rem;
+        padding: 40px 50px 40px 30px;
+    }
+    .plan_card{
+        margin: 4rem 1rem;
+        padding: 40px 50px 40px 30px;
+    }
+}
+@media screen and (max-width: 818px) {
+    .plan_card_div{
+        flex-direction: column;
+    }
+    .plan_card{
+        margin: 2rem 1rem;
+        padding: 40px 80px 40px 69px;
+    }
+}
+.plan_card button{
+    padding: .5rem 1.2rem;
+    margin-left: 15px;
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 2rem;
+}

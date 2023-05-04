@@ -73,6 +73,7 @@ body {
     background-color: var(--main-color);
     cursor: pointer;
     color: white;
+    text-decoration:overline;
 }
 
 .Nav_UList {

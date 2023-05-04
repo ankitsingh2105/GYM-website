@@ -2,18 +2,18 @@
     --main-color: orangered;
     --main-font: 'Oswald', sans-serif;
 }
+
 ::-webkit-scrollbar {
-    width: 2px; 
-  }
-  
-  ::-webkit-scrollbar-track {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--main-color); 
-  }
-  
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
 
 .Home_main_div {
     display: flex;
@@ -54,7 +54,7 @@
     opacity: 99%;
 }
 
-.Home_main_div{
+.Home_main_div {
     animation-name: entry;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -62,14 +62,14 @@
 
 @keyframes entry {
     0% {
-            opacity: 0;
-            transform: translateY(181px);
-        }
-    
-        100% {
-            opacity: 1;
-            transform: translateY(0px);
-        }
+        opacity: 0;
+        transform: translateY(181px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 

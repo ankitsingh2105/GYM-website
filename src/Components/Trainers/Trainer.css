@@ -1,6 +1,7 @@
 .Trainer_main {
     background-color: rgb(9 9 9);
     padding: 4rem 0rem;
+    border-top: 1px solid rgb(34, 33, 33);
 }
 
 .Trainer_main_div {
