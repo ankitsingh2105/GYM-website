@@ -5,7 +5,7 @@ export default function Contact(props) {
         let naam = document.getElementById("newid1").value;
         let email = document.getElementById('newid2').value;
         let text = document.getElementById('newid3').value;
-        let Message = `https://wa.me/919690905066?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
+        let Message = `https://wa.me/9196909050?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
         window.open(Message, '_blank').focus();
     }
     return (
@@ -32,16 +32,27 @@ export default function Contact(props) {
                     </ul>
                 </div>
                 <div className="form align" >
+                    <div className='contact_address '>
+                        <div className="phone">
+                        <b>Phone</b> - 12345676767
+                        </div>
+                        <div className="address">
+                        <b>Address</b> - Lorem ipraesentium quae ullam entium quae ullam.
+                        </div>
+                        <div className="email">
+                            <b>Gmail</b> - welc121ometomygym@gmial.com
+                        </div>
+                    </div>
                     <form action="" className='contact_form align2'>
                         <div className="heading_contact">
                             Deliver you message
                         </div>
-                        <input type="text" id='newid1' className="info_contact " placeholder='Your Name' required></input>
-                        <input type="text" id='newid2' className="info_contact " placeholder='Your Email/Phone' required></input>
-                        <textarea type="text" id='newid3' className='info_contact ' name="" cols="27" rows="10" placeholder='Your message' required></textarea>
+                        <input type="text" required id='newid1' className="info_contact " placeholder='Your Name'></input>
+                        <input type="text" required id='newid2' className="info_contact " placeholder='Your Email/Phone'></input>
+                        <textarea type="text" required id='newid3' className='info_contact ' name=""  rows="10" placeholder='Your message'></textarea>
                         <div className="shake">
                             <div type='button' id='delivery' className="submit" onClick={SendtoWhatspp}>
-                                <i class="fa-solid fa-truck"></i>
+                                <button>SEND</button>
                             </div>
                         </div>
                     </form>

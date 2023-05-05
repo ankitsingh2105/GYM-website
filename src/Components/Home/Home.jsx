@@ -11,7 +11,6 @@ export default function Home() {
                 <aside className='align'>
                     <div>those who</div> <div className='color'>SWEAT.</div>
                 </aside>
-                {/* +91 96909 05066 */}
                 <button> <a href='http://wa.me/<+919690906‬>'>Join Us Now</a></button>
             </div>
         </main>
