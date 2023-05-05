@@ -26,7 +26,7 @@ export default function Reviews() {
                                 <div><i class="fa-solid fa-star"></i></div>
                             </div>
                             <div className="review">
-                                It's best gym in location Georgetown.
+                                It's best gym in location in India.
                                 Coach and sub coach are very behavioural.
                                 They suggest you at every day and helps you .
                             </div>
@@ -66,7 +66,7 @@ export default function Reviews() {
                                 <div><i class="fa-solid fa-star"></i></div>
                             </div>
                             <div className="review">
-                            One of the best zym in prayagraj. Trainers are polite and careful. They provide scheduled training for all type of body enhancements.
+                            One of the best zym in World. Trainers are polite and careful. They provide scheduled training for all type of body enhancements.
                             </div>
                         </div>
                     </div>
