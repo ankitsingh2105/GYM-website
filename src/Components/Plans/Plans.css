@@ -16,14 +16,16 @@
     margin: 4rem 3rem;
     box-shadow: 0px 0px 50px #484545;
 }
-.plan_card:hover{
-    transform: scale(1.03);
-    .plan_card div , .plan_card h2 , .plan_card button{
-        transform: skewY(4deg);
-    }
+.plan_card:hover div {
+    transform: skewY(0deg);
+}
+
+.plan_card:hover , .plan_card:hover h2 , .plan_card:hover button{
+    transform: scale(1.05);
 }
 .plan_card div , .plan_card h2 , .plan_card button{
     transform: skewY(4deg);
+    transition: all 0.5s;
 }
 .plan_price{
     color: var(--main-color);

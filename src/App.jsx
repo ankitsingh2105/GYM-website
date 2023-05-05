@@ -24,8 +24,8 @@ export default function App() {
         <Navbar id="home" />
         <Home />
         <About id="about" />
-        <Trainers />
         <Plans id="plans"/>
+        <Trainers />
         <Calculator />
         <Reviews/>
         <Contact id="contact" />
