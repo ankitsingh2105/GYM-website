@@ -40,7 +40,7 @@ export default function Contact(props) {
                         <b>Address</b> - Lorem ipraesentium quae ullam entium quae ullam.
                         </div>
                         <div className="email">
-                            <b>Gmail</b> - welc121ometomygym@gmial.com
+                            <b>Gmail</b> - welcometomygym@gmail.com
                         </div>
                     </div>
                     <form action="" className='contact_form align2'>
