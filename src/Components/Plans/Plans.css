@@ -30,7 +30,7 @@
 .plan_price{
     color: var(--main-color);
     font-weight: 900;
-    font-size: 40px;
+    font-size: 80px;
 }
 .plan_features{
     list-style: circle;
