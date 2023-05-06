@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Home.css"
 export default function Home() {
-    ScrollReveal().reveal('.Home_main_div');
     return (
         <main className='Home_main'>
             <div className="Home_main_div">
