@@ -1,0 +1,29 @@
+.main_topics{
+    letter-spacing: 1px;
+    font-family: var(--main-font);
+}
+.main_topics p{
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+}
+.main_div_topics{
+    margin:3rem;
+}
+.main_div_topics h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.main_div_topics p{
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 661px) {
+    .main_div_topics {
+        margin: 0px 1rem;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 393px) {
+    .main_div_topics h1 {
+        font-size: 2.5rem;
+    }
+}

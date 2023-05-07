@@ -47,6 +47,24 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/*  router navbar */
+.about_nav_ul{
+    padding: 0px 3rem;
+}
+.about_nav_ul li{
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+    color: var(--main-color);
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+}
+.secondDiv{
+    display: flex;
+    border: 4px solid white;
+    padding: 2rem 0rem;
+    margin-top: -3rem;
+}
+
 @media screen and (max-width: 1084px) {
     .About_main_aside aside {
         font-size: 2rem;
@@ -104,5 +122,48 @@
 @media screen and (max-width: 393px) {
     .About_main_aside aside {
         font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 796px) {
+    .secondDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_nav_ul{
+        display: grid;
+        grid-template-columns: 12.5rem 12.5rem 12.5rem;
+    }
+    .About_nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_nav_ul{
+        padding: 0px;
+    }
+    .about_nav_ul li{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 661px) {
+    .about_nav_ul{
+        grid-template-columns: 12rem 12rem;
+    }
+    .main_div_topics {
+        margin: 0px 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .about_nav_ul li {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 393px) {
+    .about_nav_ul{
+        grid-template-columns: 11rem 11rem;
+    }
+    .main_div_topics h1 {
+        font-size: 20.5rem;
     }
 }
