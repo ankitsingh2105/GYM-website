@@ -1,5 +1,7 @@
 :root {
-    --main-color: orangered;
+    /* --main-color: orangered; */
+    --main-color: rgb(255, 0, 30); 
+    /* --main-color: rgb(234, 255, 0); */
     --main-font: 'Oswald', sans-serif;
 }
 
